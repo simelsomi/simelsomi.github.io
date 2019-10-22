@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+@media screen and (min-width:1024px) and (max-width:1366px)
+{
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+video{
+  display: block;
+  position: relative;
+}
+
+nav{
+  width: 30%;
+  height: 30px;
+  right: 5%; top: 10%;
+  position: absolute;
+}
+
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+nav ul li{
+  display: inline;
+}
+
+nav ul li a{
+  width: 25%;
+  height: 30px;
+  display: block;
+  color: white;
+  font-family: Arial;
+  font-size: 19px;
+  float: left;
+  text-decoration: none;
+  text-align: center;
+  line-height: 30px;
+  transition: background 1s, letter-spacing 1s;
+
+}
+
+nav ul li a:hover{
+  background: rgba(0, 0, 0, 0.5);
+  letter-spacing: 1px;
+}
+
+section{
+  width: 100%;
+  display: block;
+  padding-bottom: 100px;
+}
+
+section article{
+  width: 25%;
+  margin-right:10%;
+  float: left;
+}
+
+section article p{
+  font-size: 14px;
+  font-family: Georgia;
+}
+
+section article.left{
+  margin-left: 10%;
+}
+
+section figure{
+  width: 35%;
+  display: block;
+  margin: 0;
+  padding: 0;
+  float: left;
+  margin-right: 10%;
+  margin-bottom: 100px;
+  outline: solid 5px green;
+}
+
+section figure.pic_left{
+  margin-left: 10%;
+}
+
+
+section figure img{
+  max-width: 100%;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+footer{
+  width: 100%;
+  height: 150px;
+  background-color: #ccc;
+}
+
+footer p{
+  text-align: center;
+  line-height: 100px;
+  font-family: Tahoma;
+  color: white;
+  font-size: 24px;
+}
+
+
+}
